@@ -16,7 +16,12 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
     />
-
+	apt-get update
+	apt-get install software-properties-common
+	add-apt-repository universe
+	add-apt-repository ppa:certbot/certbot
+	apt-get update
+	apt-get install python-certbot-nginx 
     <!-- Banner Style  -->
     <link
       rel="stylesheet"
@@ -321,7 +326,7 @@
 			return;
 		}
 		// fetch the data
-		var cardInfoURL =  "https://ahuncards.com/card_data_template/card_data/find/card_dataId/" + content;
+		var cardInfoURL =  "https://www.ahuncards.com/card_data_template/card_data/find/card_dataId/" + content;
 		$.ajax({
 			url: cardInfoURL,
 			method: "GET",

@@ -321,14 +321,14 @@
 			return;
 		}
 		// fetch the data
-		var cardInfoURL =  "http://ahuncards.com/card_data_template/card_data/find/card_dataId/" + content;
+		var cardInfoURL =  "https://ahuncards.com/card_data_template/card_data/find/card_dataId/" + content;
 		$.ajax({
 			url: cardInfoURL,
 			method: "GET",
 			}).done(function(data) {
 				console.log("success");
 				console.log(data);
-				var imgPath = "http://ahuncards.com/card_data_template/card_data/find/bcard_img_name/" + data.imageName;
+				var imgPath = "https://ahuncards.com/card_data_template/card_data/find/bcard_img_name/" + data.imageName;
 				$('<img class="img-rounded img-responsive" src="'+ imgPath +'">').load(function() {
 					// $("#card_place").spin("show");
 					$('#card_place').empty();

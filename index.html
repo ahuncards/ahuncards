@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AhunCards |</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    />
+
+    <!-- Banner Style  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="banner-assets/css/divascookies_style_dark_top.css"
+    />
+    <style>
+      .divascookies {
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .divascookies p.divascookies-banner-text {
+        font-size: 1em;
+      }
+      .divascookies-accept-button-container > .divascookies-accept-button-text {
+        font-size: 1em;
+        padding: 1px 10px;
+      }
+    </style>
+    <!-- Custom styles -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,100,400italic,500,700,300"
+      rel="stylesheet"
+      type="text/css"
+	/>
+	
+
+    <link href="cs-public/assets/css/style.css" rel="stylesheet" />
+    <style type="text/css">
+      .form-wrap input[type="text"]::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: #30bfbf;
+        line-height: 26px;
+      }
+      .form-wrap input[type="text"]:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #30bfbf;
+        opacity: 1;
+      }
+      .form-wrap input[type="text"]::-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #30bfbf;
+        opacity: 1;
+      }
+      .form-wrap input[type="text"]:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: #30bfbf;
+      }
+      .footer a:hover {
+        color: #30bfbf;
+	  }
+	  .style-1 .footer a {
+    	color: #ffffff;
+		}
+		.wrap .footer:before, .wrap .footer:after{
+			right: 46% !important;
+			left: auto;
+			border-width: 0 20px 20px;
+			top: -21px;
+		}
+		.wrap .footer:after{
+			top: -20px !important;
+		}
+		div.card_place {
+			padding: 20px 0px;
+		}
+		.wrap .footer{
+			text-align: center;
+		}
+		.preview {
+			padding: 50px 0px;
+		}
+		.preview_text {
+			text-align: center;
+			text-decoration: #30bfbf
+		}
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="style-1">
+    <div class="container">
+     
+      <div class="row">
+        <!-- <ul style="list-style:none; margin-top: 10px;">
+				<li style="display: inline-block;"><a href="index-theme=1.html">Light Theme</a> | </li>
+				<li style="display: inline-block;"><a href="index-theme=2.html">Dark Theme</a> | </li>
+				<li style="display: inline-block;"><a href="cs-admin/login.php.html">Admin Area</a></li>
+			</ul> -->
+
+        <section
+          class="wrap col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2"
+        >
+          <div class="row">
+            <section class="content col-md-12 col-sm-12 col-lg-12">
+              <i
+                class="fa fa-bars more-btn pull-right visible-xs-inline-block"
+                data-toggle="modal"
+                data-target="#overlay"
+              ></i>
+
+			  <h2 style="color: #30bfbf;border-bottom: 1px solid #30bfbf52;">Ahun-Cards</h2>
+
+			  <!-- <div class='spin spin-gleam' data-spin='spin'></div> -->
+
+              <div id="card_place" class="card_place" >
+					<div id="preview1" class="preview"></div>
+					<div class="preview_text" style="color: #30bfbf;">Loading Card...</div>
+					<!-- <img src="" /> -->
+			  </div>
+            </section>
+            <!-- /content -->
+            <!-- /tweets -->
+          </div>
+          <!-- /row -->
+
+          <div class="row">
+    
+            <!-- /subscribe -->
+          </div>
+          <!-- /row -->
+
+          <div class="row">
+            <section class="col-md-12">
+              <div class="footer">
+				<a href="" class="btn btn-lg" style="background:#30bfbf">
+					<i class="fa fa-download"></i> Download Our App
+				</a>
+              </div>
+            </section>
+            <!-- /subscribe -->
+          </div>
+          <!-- /row -->
+        </section>
+        <!-- /wrap -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="cs-public/assets/js/jquery.timeago.min.js"></script>
+    <script src="cs-public/assets/js/script.min.js"></script>
+
+	<script src="//unpkg.com/navigo@6"></script>
+
+	<!-- your Divas Cookies version -->
+	<!-- <script src="//unpkg.com/navigo@6"></script> -->
+
+    <!-- <script
+      type="text/javascript"
+      src="banner-assets/js/jquery.divascookies-0.4.min.js"
+    ></script> --><script type="text/javascript" src="https://www.jqueryscript.net/demo/spin-js-Animated-CSS3-Loading-Spinner/spin.js"></script>
+
+	<script>
+		// $.fn.spin = function(opts) {
+		// 	this.each(function() {
+		// 	var $this = $(this),
+		// 		data = $this.data();
+		
+		// 	if (data.spinner) {
+		// 		data.spinner.stop();
+		// 		delete data.spinner;
+		// 	}
+		// 	if (opts !== false) {
+		// 		data.spinner = new Spinner($.extend({color: $this.css('color')}, opts)).spin(this);
+		// 	}
+		// 	});
+		// 	return this;
+		// };
+		var opts = {
+
+		// The number of lines
+		lines: 13, 
+
+		// The length of each line
+		length: 38, 
+
+		// The width of each line
+		width: 17, 
+
+		// The radius of the inner circle
+		radius: 45, 
+
+		// Scales size
+		scale: 1, 
+
+		// Corner roundness (0..1)
+		corners: 1, 
+
+		// CSS color or array of colors
+		color: '#ffffff', 
+
+		// CSS color or array of colors
+		fadeColor: 'transparent', 
+
+		// <a href="https://www.jqueryscript.net/animation/">Animation</a> speed
+		speed: 1,
+
+		// Rotation offset
+		rotate: 0, 
+
+		// The CSS animation name for the lines
+		animation: 'spinner-line-fade-quick', 
+
+		// 1: clockwise, -1: counterclockwise
+		direction: 1, 
+
+		// z-index
+		zIndex: 2e9,
+
+		// The CSS class
+		className: 'spinner', 
+
+		// Top position relative to parent
+		top: '50%', 
+
+		// Left position relative to parent
+		left: '50%', 
+
+		// Box-shadow
+		shadow: '0 0 1px transparent', 
+
+		// Element positioning
+		position: 'absolute' 
+
+		};
+		
+		
+		</script>
+	<script text="text/javascript">
+	
+			$.fn.spin = function(opts) {
+		this.each(function() {
+			var $this = $(this),
+				data = $this.data();
+
+			if (data.spinner) {
+			data.spinner.stop();
+			delete data.spinner;
+			}
+			if (opts !== false) {
+			data.spinner = new Spinner($.extend({color: $this.css('color')}, opts)).spin(this);
+			}
+		});
+		return this;
+		};
+		$('#preview1').spin();
+
+    //   $.DivasCookies({
+    //     bannerText:
+    //       "This website uses cookies in order to improve your web experience. (Cookie banner is not included inside project)",
+    //     cookiePolicyLink: "http://www.evographics.net/cookie-policy.php",
+    //     cookiePolicyLinkText: "More info",
+    //     acceptButtonText: "Accept"
+    //   });
+	var opts = {
+		lines: 13, // The number of lines to draw
+		length: 38, // The length of each line
+		width: 17, // The line thickness
+		radius: 45, // The radius of the inner circle
+		scale: 1, // Scales overall size of the spinner
+		corners: 1, // Corner roundness (0..1)
+		color: '#ffffff', // CSS color or array of colors
+		fadeColor: 'transparent', // CSS color or array of colors
+		speed: 1, // Rounds per second
+		rotate: 0, // The rotation offset
+		animation: 'spinner-line-fade-quick', // The CSS animation name for the lines
+		direction: 1, // 1: clockwise, -1: counterclockwise
+		zIndex: 2e9, // The z-index (defaults to 2000000000)
+		className: 'spinner', // The CSS class to assign to the spinner
+		top: '50%', // Top position relative to parent
+		left: '50%', // Left position relative to parent
+		shadow: '0 0 1px transparent', // Box-shadow for the lines
+		position: 'absolute' // Element positioning
+		};
+		$(document).ready(function(){
+			// $('#preview1').spin(opts);
+			// $('#card_place').empty();
+			// $('.spin').spin('show');
+		})
+		
+
+	function setContent(content) {
+		console.log('content', content);
+		if(content=="Home") {
+			var imgPath = "https://via.placeholder.com/900x500.png?text=Use+A+Correct+Ahun-Cards";
+			$('<img class="img-rounded img-responsive" src="'+ imgPath +'">').load(function() {
+				// $("#card_place").spin("show");
+					$('#card_place').empty();
+					$(this).appendTo('#card_place');
+			});
+			return;
+		}
+		// fetch the data
+		var cardInfoURL =  "http://ahuncards.com/card_data_template/card_data/find/card_dataId/" + content;
+		$.ajax({
+			url: cardInfoURL,
+			method: "GET",
+			}).done(function(data) {
+				console.log("success");
+				console.log(data);
+				var imgPath = "http://ahuncards.com/card_data_template/card_data/find/bcard_img_name/" + data.imageName;
+				$('<img class="img-rounded img-responsive" src="'+ imgPath +'">').load(function() {
+					// $("#card_place").spin("show");
+					$('#card_place').empty();
+					$(this).appendTo('#card_place');
+				});
+			})
+			.fail(function(error) {
+				console.error(error);
+				alert("Error In Connection!, Refresh the Page!")
+				// var imgPath = "https://via.placeholder.com/900x500.png?text=Use+A+Correct+Ahun-Cards";
+				// 	$('<img class="img-rounded img-responsive" src="'+ imgPath +'">').load(function() {
+				// 			$(this).appendTo('#card_place');
+				// 	});
+				// return;
+		});			
+		
+		
+	}
+	</script>
+	<script>
+		var root = null;
+		var useHash = true; // Defaults to: false
+		var hash = '#'; // Defaults to: '#'
+		var router = new Navigo(root, useHash, hash);
+		router
+			.on({
+				'/:id': function (params) {
+					var id = params.id;
+					console.log("params:", params)
+					setContent(id);
+				},
+				'ahuncards/:id': function (params) {
+					var id = params.id
+					setContent(id);
+				},
+				'*': function () {
+					setContent('Home')
+				}
+			})
+			.resolve();
+		// $(function() {
+		// 	console.log("start scripts");
+		// 	setContent();
+		// })
+	</script>
+  </body>
+</html>
